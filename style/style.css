@@ -348,8 +348,8 @@ footer{
     }
     
     .close-icon ion-icon{
-        color: var(--color-dark);
-        padding: 2rem 3rem;
+        color: #fff;
+        padding: 1rem 1rem;
         font-size: 3rem;
         opacity: 80;
         z-index: 10;
@@ -365,11 +365,10 @@ footer{
         flex-direction: column;
         z-index: -1;
         margin-top: 14rem;
-       
     }
 
     .nav-lists a{
-        color: #7b7b7b;
+        color: #fff;
         padding: 1.7rem 0rem;
         font-weight: bold;
         font-size: 1.5rem;
@@ -379,6 +378,7 @@ footer{
 
     .nav-lists a:hover{
         background-color: #e3e3e3;
+        color: #000;
     }
 
     .btncenter {
@@ -411,29 +411,6 @@ footer{
 
     .btncenter .red{
         background: var(--color-dender);
-    }
-
-    .contect{
-        padding:1rem 3rem ;
-    }
-
-    .contect i{
-        display: inline-block;
-        outline: none;
-        width: 3rem;
-        height: 3rem;
-        line-height: 3rem;
-        font-size: 1.5rem;
-        border: .1rem solid #919191;
-        border-radius: 50%;
-        text-align: center;
-        cursor: pointer;
-        color: #919191;
-    }
-
-    .contect i:hover{
-        background-color: var(--color-pramiry);
-        color: var(--color-light);
     }
 
     nav {
