@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: all .3s linear;
+}
+
+:root{
+    --color-light: #fff;
+    --color-pramiry:#2165be;
+    --color-green:#2ECC71;
+    --color-dender:#d33;
+    --color-yellow: #d93;
+    --backgound: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+a, p, i, span{
+    font-size: 1.7rem;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container-max-width{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+body{
+    background: var(--backgound);
+}
+
+.container-content{
+    padding: 2rem;
+}
+
+.container-content h1{
+    font-size: 2.7rem;
+    padding: .5rem 0;
+    text-align: center;
+    color: red;
+}
+.container-content h2{
+    font-size: 2.5rem;
+    padding: .5rem 0;
+    color: red;
+}
+.container-content h3{
+    font-size: 2rem;
+    padding: .5rem 0;
+    color: red;
+}
+.container-content span{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+    padding: 3.5rem 0 1rem;
+    color: #2165be;
+}
+.container-content .texts p{
+    line-height: 1.7;
+    padding: .5rem 0;
+}
+
+.container-content .image-center{
+    display: flex;
+    justify-content: center;
+}
+
+.container-content .image-cender .image{
+    max-width: 100%;
+}
+
+.content-grid .box-grid .image-flex .image img{
+    width: 100%;
+}
+
+.lest{
+    font-size: 1.7rem;
+    list-style-type: disc;
+    padding-left: 2rem;
+}
