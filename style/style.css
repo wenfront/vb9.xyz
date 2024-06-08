@@ -148,6 +148,9 @@ body{
 .nav-list .links:hover{
     border-top: .3rem solid var(--color-pramiry);
 }
+.nav-list .links.active{
+    color: var(--color-pramiry);
+}
 
 .btncenter {
     display: none;
