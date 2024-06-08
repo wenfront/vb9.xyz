@@ -427,6 +427,7 @@ footer{
         overflow-x: hidden;
         transition: 0.5s;
         padding: 0px !important;
+        z-index: 100;
     }
     /* content grid */
     .content-grid{

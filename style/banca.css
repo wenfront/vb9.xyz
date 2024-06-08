@@ -76,6 +76,9 @@ body{
     width: 65%;
 }
 /* search */
+.wrap{
+    z-index: -5;
+}
 .searchs {
     width: 100%;
     position: relative;
