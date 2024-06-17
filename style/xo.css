@@ -72,7 +72,7 @@ body{
 }
 
 /* left */
-/* .container-content .left{
+.container-content .left{
     width: 65%;
 }
 /* search */
@@ -181,7 +181,17 @@ body{
     color: var(--color-pramiry);
     width: 33%;
 } 
-
+.image-left-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 50%;
+    padding: 4rem 0 5rem;
+}
+.image-left-center img{
+    width: 100%;
+}
 @media screen and (max-width: 768px ){
     .container-content{
         display: flex;

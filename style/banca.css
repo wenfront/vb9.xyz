@@ -68,11 +68,11 @@ body{
 }
 .container-content .texts p{
     line-height: 1.7;
-    padding: .5rem 0;
+    padding: 1rem 0;
 }
 
 /* left */
-/* .container-content .left{
+.container-content .left{
     width: 65%;
 }
 /* search */
